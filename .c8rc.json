@@ -1,0 +1,22 @@
+{
+  "report-dir": ".coverage",
+  "reporter": [
+    "text",
+    "lcov",
+    "html"
+  ],
+  "include": [
+    "src/services/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "tests/**",
+    "node_modules/**"
+  ],
+  "all": true,
+  "check-coverage": true,
+  "branches": 40,
+  "functions": 40,
+  "lines": 40,
+  "statements": 40
+}
